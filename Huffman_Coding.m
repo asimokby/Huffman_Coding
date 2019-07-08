@@ -254,6 +254,11 @@ end
 %final sorted manually huffman dict
 manually_huff_dict = sortrows(manually_huff_dict,1);
 
+
+
+
+%Example%
+
 %encoding the data
 encoded_array = [];
 for i =1 : length(input_array)
